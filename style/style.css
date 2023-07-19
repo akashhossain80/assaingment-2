@@ -168,6 +168,12 @@
 /* ----------------------------------------section icon end -----------------------*/
 
 /*--------------------------------------- frooter start ------------------- */
+footer {
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 50px;
+    padding: 60px 0px;
+}
 .foot-img{
     display: flex;
     justify-content: center;
@@ -186,14 +192,14 @@
     justify-content: center;
     margin-bottom: 50px;
 }
-.foot-contant{
+.foot-con{
     display: grid;
     grid-template-columns: repeat(6,1fr);
     justify-content: center;
     width: 50%;
     margin: auto;
 }
-.mini-contant{
+.mini-con{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-content: center;
@@ -201,17 +207,12 @@
     margin: auto;
     padding-left: 130px;
 }
-.last-tag{
+.end-tag{
     text-align: center;
     margin-top: 30px;
     margin-left: 10px;
 }
-footer {
-    background-color: black;
-    color: whitesmoke;
-    margin-top: 50px;
-    padding: 60px 0px;
-}
+
 
 
 
